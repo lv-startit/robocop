@@ -5,8 +5,7 @@ import lejos.hardware.motor.Motor;
 public class RobotSimpleDrive {
 
 	public static void main(String[] args) {
-		Motor.A.forward();
-		Motor.B.forward();
+		System.out.println("Hello World!");
 	}
 
 }

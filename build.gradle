@@ -1,9 +1,9 @@
 apply plugin: 'java'
 apply plugin:'application'
-
-task makeJar(type: Jar){
-	manifest {
-        attributes 'Main-Class': 'src.main.java.RobotSimpleDrive'
+    
+jar {
+    manifest {
+        attributes 'Main-Class': 'main.java.RobotSimpleDrive'
     }
 }
 
