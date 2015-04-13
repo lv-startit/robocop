@@ -3,12 +3,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="libs"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="libs/commons-cli.jar"/>
 	<classpathentry kind="lib" path="libs/dbusjava.jar"/>
 	<classpathentry kind="lib" path="libs/ev3classes.jar"/>
 	<classpathentry kind="lib" path="libs/ev3tools.jar"/>
 	<classpathentry kind="lib" path="libs/jcommon.jar"/>
 	<classpathentry kind="lib" path="libs/jfreechart.jar"/>
 	<classpathentry kind="lib" path="libs/jsch-0.1.50.jar"/>
+	<classpathentry kind="lib" path="libs/commons-cli.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin:'application'
+
+task makeJar(type: Jar){
+	manifest {
+        attributes 'Main-Class': 'src.main.java.RobotSimpleDrive'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    	compile fileTree(dir: 'libs', include: '*.jar')
+	}
