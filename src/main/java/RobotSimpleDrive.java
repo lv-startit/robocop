@@ -1,6 +1,5 @@
 package main.java;
 
-import lejos.hardware.motor.Motor;
 
 public class RobotSimpleDrive {
 
