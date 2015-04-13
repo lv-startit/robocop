@@ -1,14 +1,9 @@
 apply plugin: 'java'
-apply plugin:'application'
     
 jar {
     manifest {
         attributes 'Main-Class': 'main.java.RobotSimpleDrive'
     }
-}
-
-repositories {
-    mavenCentral()
 }
 
 dependencies {
